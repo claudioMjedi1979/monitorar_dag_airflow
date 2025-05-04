@@ -5,6 +5,7 @@ import joblib
 
 model = joblib.load("modelo_dag_falha_novo.pkl")
 
+
 st.title("Previsão de Falhas em DAGs do Airflow")
 
 uploaded_file = st.file_uploader("Envie um CSV com dados das DAGs", type="csv")
